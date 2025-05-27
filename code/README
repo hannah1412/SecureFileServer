@@ -1,0 +1,8 @@
+-- Run this on client side
+python3 client.py example.txt http://127.0.0.1:8001/upload
+
+-- Run this on server side 
+python3 server.py
+
+-- To decrypt the file
+python3 decrypt.py <file_path> 
